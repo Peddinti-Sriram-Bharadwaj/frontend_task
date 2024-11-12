@@ -81,3 +81,22 @@ document.addEventListener('click', function(event) {
         document.body.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
     }
 });
+
+document.getElementById('loginLink').addEventListener('click', function(event) {
+    event.preventDefault();
+    document.getElementById('login').style.display = 'block';
+    document.getElementById('menu').style.display = 'none';
+    document.getElementById('login').scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('login').style.top = '50%';
+    document.getElementById('login').style.left = '50%';
+    document.getElementById('login').style.transform = 'translate(-50%, -50%)';
+    document.getElementById('login').style.zIndex = '1000';
+    document.getElementById('login').style.backgroundColor = 'white';
+    document.getElementById('login').style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
+});
+
+document.getElementById('loginForm').addEventListener('submit', function(event) {
+    document.getElementById('login').style.display = 'none';
+    document.getElementById('menu').style.display = 'flex';
+    document.getElementById('menu').scrollIntoView({ behavior: 'smooth' });
+});
