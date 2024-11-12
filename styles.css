@@ -1,6 +1,6 @@
 
     body {
-        background: url('../pages/assets/background.jpg') no-repeat center center fixed;
+        background: url('./assets/background.jpg') no-repeat center center fixed;
         background-size: cover;
         color: #E0E0E0;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -16,7 +16,7 @@
     }
     #menu {
         background-color: rgba(18, 18, 18, 0.95);
-        color: #E0E0E0;
+        color: #E0E0E0;g
     }
     .card {
         background-color: #1E1E1E;
