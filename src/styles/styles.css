@@ -1,6 +1,6 @@
 
     body {
-        background: url('../../assets/background.jpg') no-repeat center center fixed;
+        background: url('../pages/assets/background.jpg') no-repeat center center fixed;
         background-size: cover;
         color: #E0E0E0;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;

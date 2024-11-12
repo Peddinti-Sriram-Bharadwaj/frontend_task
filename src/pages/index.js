@@ -1,33 +1,33 @@
 const menuItems = [
     {
         name: "Dosa",
-        price: "$5.00",
+        price: "₹50.00",
         rating: "⭐⭐⭐⭐☆",
-        image: "../../assets/dosa.jpg"
+        image: "./assets/dosa.jpg"
     },
     {
         name: "Vegan Pizza",
         price: "₹600.00",
         rating: "⭐⭐⭐⭐⭐",
-        image: "../../assets/vegan_pizza.jpg"
+        image: "./assets/vegan_pizza.jpg"
     },
     {
         name: "Vegan Burger",
         price: "₹450.00",
         rating: "⭐⭐⭐⭐",
-        image: "../../assets/vegan_burger.jpg"
+        image: "./assets/vegan_burger.jpg"
     },
     {
         name: "Vegan Pasta",
         price: "₹500.00",
         rating: "⭐⭐⭐⭐☆",
-        image: "../../assets/vegan_pasta.jpg"
+        image: "./assets/vegan_pasta.jpg"
     },
     {
         name: "Vegan Ice Cream",
         price: "₹250.00",
         rating: "⭐⭐⭐⭐⭐",
-        image: "../../assets/vegan_icecream.jpg"
+        image: "./assets/vegan_icecream.jpg"
     }
 ];
 
